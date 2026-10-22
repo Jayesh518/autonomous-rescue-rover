@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ROS 2 / colcon build output
+build/
+install/
+log/
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Recorded data, weights, firmware build output
+*.bag
+*.db3
+*.mcap
+rosbag2_*/
+*.pt
+*.pth
+*.onnx
+*.engine
+.pio/
+*.elf
+*.hex
+
+# Raw media (commit only approved media under docs/demo/)
+*.mp4
+*.avi
+*.mov
+
+# Employer-owned material must never be committed
+company/
+private/
